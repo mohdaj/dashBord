@@ -1,55 +1,7 @@
 [
-  {"env": "SIT1", "services": {"wlp": "ips", "admin": "ips", "oauth": "", "portal": ""}, "user": {"wlp": "mohammed", "admin": "mohammed", "oauth": "", "portal": ""}},
-  {
-    "env": "SIT2",
-    "services": {
-      "wlp": "",
-      "admin": "",
-      "oauth": "",
-      "portal": ""
-    },
-    "user": {
-      "wlp": "",
-      "admin": "",
-      "oauth": "",
-      "portal": ""
-    }
-  },
-  {
-    "env": "UAT2",
-    "services": {
-      "wlp": "",
-      "admin": "",
-      "oauth": "",
-      "portal": ""
-    },
-    "user": {
-      "wlp": "",
-      "admin": "",
-      "oauth": "",
-      "portal": ""
-    }
-  },
-  {
-    "env": "UAT1F",
-    "services": {
-      "portal": ""
-    },
-    "user": {
-      "portal": ""
-    }
-  },
-  {
-    "env": "UAT1B",
-    "services": {
-      "wlp": "",
-      "admin": "",
-      "oauth": ""
-    },
-    "user": {
-      "wlp": "",
-      "admin": "",
-      "oauth": ""
-    }
-  }
+  {"env": "SIT1", "services": {"wlp": "", "admin": "", "oauth": "", "portal": ""}, "user": {"wlp": "", "admin": "", "oauth": "", "portal": ""}},
+  {"env": "SIT2", "services": {"wlp": "", "admin": "", "oauth": "", "portal": ""}, "user": {"wlp": "", "admin": "", "oauth": "", "portal": ""}},
+  {"env": "UAT2", "services": {"wlp": "", "admin": "", "oauth": "", "portal": ""}, "user": {"wlp": "", "admin": "", "oauth": "", "portal": ""}},
+  {"env": "UAT1F", "services": {"portal": ""}, "user": {"portal": ""}},
+  {"env": "UAT1B", "services": {"wlp": "", "admin": "", "oauth": ""}, "user": {"wlp": "", "admin": "", "oauth": ""}}
 ]
