@@ -1,0 +1,17 @@
+<p-table [value]="data">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>env</th>
+      <th>servs</th>
+      <th>user</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-data>
+    <tr>
+      <td>{{data.env}}</td>
+      <td ><ng-container *ngFor="let date of data.services | keyvalue" ><tr *ngIf="!hasvalue"><td >{{date.key}}</td><td >{{date.value}}</td></tr></ng-container></td>
+     <td><tr *ngFor="let data of data.user | keyvalue"><td class="key">{{data.key}}</td><td class="vla">{{data.value}}</td></tr></td>
+    </tr>
+
+  </ng-template>
+</p-table>

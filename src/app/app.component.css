@@ -1,0 +1,24 @@
+.key{
+  text-align: center;
+  padding-right: 20px;
+  border-bottom: solid;
+}
+.vla{
+  text-align: center;
+  padding-left: 80px;
+  border-bottom: solid;
+}
+.key{
+  text-align: center;
+  padding-right: 20px;
+  background: green;
+}
+.vla{
+  text-align: center;
+  padding-left: 80px;
+  background: green;
+
+}
+.comp{
+  background: green;
+}
